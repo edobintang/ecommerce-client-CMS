@@ -27,7 +27,7 @@ export default {
   },
   beforeRouteEnter (to, from, next) {
     if (localStorage.access_token) {
-      next({ name: 'Home' })
+      next({ name: 'Material' })
     } else {
       next()
     }
